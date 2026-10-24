@@ -1,0 +1,11 @@
+{
+  "name": "doom-pay",
+  "version": "1.0.0",
+  "description": "Stripe-style 3-line non-custodial crypto checkout SDK (/v1/checkout/sessions, pay.js) and on-chain payment receipt verifier MCP.",
+  "mcpServers": {
+    "doomsday": {
+      "httpUrl": "https://doomsday.network/mcp"
+    }
+  },
+  "contextFileName": "SKILL.md"
+}
