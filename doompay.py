@@ -15,6 +15,14 @@ WDOOM_CONTRACT = "0x623c84A5E04bF715018203334b0eFE41696eBC3E"
 class CheckoutSession:
     @staticmethod
     def create(recipient: str, amount: float = 100.0, item: str = "Doomsday Checkout", success_url: str = "", cancel_url: str = "") -> dict:
+        """Create a Stripe-style self-custodial Checkout Session in 1 call with parameter validation."""
+        if not recipient or not isinstance(recipient, str):
+            raise ValueError("recipient must be a valid non-empty string address")
+        clean_recipient = recipient.strip()
+        if not (clean_recipient.startswith("0x") or clean_recipient.startswith("doom1")):
+            raise ValueError("recipient must be a valid EVM (0x...) or Doomsday (doom1...) address")
+        if float(amount) <= 0:
+            raise ValueError("amount must be a positive number greater than 0")
         """Create a Stripe-style self-custodial Checkout Session in 1 call."""
         payload = json.dumps({
             "recipient": recipient,
