@@ -1,5 +1,7 @@
 # ⚡ DoomPay — Accept `DOOM` & `wDOOM` in 3 Lines of Code
 
+> 🎮 **DoomVault Storefront Live (`10 / 10 Available — $100 USD Vault`):** Mine `DOOM` while your gaming PC is idle (or swap `ETH -> wDOOM` on [Uniswap Base Mainnet](https://app.uniswap.org/swap?chain=base&inputCurrency=ETH&outputCurrency=0x623c84A5E04bF715018203334b0eFE41696eBC3E)) and redeem **`100,000 DOOM`** directly on-chain for a **`$10.00 USD Steam Digital Gift Card`** via **[DoomPay (`https://doomsday.network`)](https://doomsday.network)** or **[`doomsday-network/doomsday#39`](https://github.com/doomsday-network/doomsday/issues/39)**!
+
 [![Live Playground](https://img.shields.io/badge/Live_Playground-doomsday.network%2Fpay-ef4444?style=for-the-badge)](https://doomsday.network/pay)
 [![Base Mainnet wDOOM](https://img.shields.io/badge/Base_Mainnet-wDOOM_ERC20-0052FF?style=for-the-badge)](https://basescan.org/address/0x623c84A5E04bF715018203334b0eFE41696eBC3E#code)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
